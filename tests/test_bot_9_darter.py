@@ -1,4 +1,3 @@
-from unittest import TestCase
 from bots.bot_9_darter import NineDartsBot
 from test_bot_helper import TestBotHelper
 

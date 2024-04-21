@@ -8,27 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fa8db1-aa0e-412d-a4ad-621c0cd533e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DartTracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/bot_9_darter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/bot_beginner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/dart_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dartboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pretty_printer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_bot_9_darter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_bot_beginner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_bot_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simulation/simulate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/dart_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bots/dart_bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dartboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/dartboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_bot_9_darter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_bot_9_darter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_bot_beginner.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_bot_beginner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2elkVIa7V3h2agQD2RJVCxtOPAE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,24 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_bot_9_darter.TestNineDartsBot.executor": "Run",
-    "Python tests.Python tests for test_bot_beginner.TestBeginnerBot.executor": "Run",
-    "Python tests.Python tests for test_bot_helper.TestBotHelper.test_average_score.executor": "Run",
-    "Python tests.Python tests in python -m unittest discover tests.executor": "Run",
-    "Python tests.Python tests in test_bot_9_darter.py.executor": "Run",
-    "Python tests.Python tests in tests.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/max/code/PycharmProjects/DartTracker",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Python"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_bot_9_darter.TestNineDartsBot.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_bot_beginner.TestBeginnerBot.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_bot_helper.TestBotHelper.test_average_score.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in python -m unittest discover tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_bot_9_darter.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/max/code/PycharmProjects/DartTracker&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -84,7 +70,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in tests">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DartTracker" />
       <option name="ENV_FILES" value="" />

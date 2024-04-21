@@ -1,7 +1,5 @@
 
 from constants import TARGET_TYPE_SINGLE, TARGET_TYPE_DOUBLE, TARGET_TYPE_TRIPLE, TARGET_TYPE_MISS
-from random import randint
-from pretty_printer import PrettyPrinter
 
 
 class Dartboard:

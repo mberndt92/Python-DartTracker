@@ -1,4 +1,3 @@
-from unittest import TestCase
 from bots.bot_beginner import BeginnerBot
 from test_bot_helper import TestBotHelper
 

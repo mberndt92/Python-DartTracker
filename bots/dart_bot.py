@@ -189,20 +189,13 @@ class DartBot:
         upper_limit = sum(values)
         segment_roll = uniform(0, upper_limit)
 
-        # Example
-        ## Singles: 0.40
-        ## Doubles: 0.20
-        ## Triples: 0.10
-        ## Total: 0.70
-
-        left_border = 0
+        # TODO: Not sure this code works as expected
         right_border = values[0]
         actual_segment_hit = TARGET_TYPE_SINGLE
         for i in range(len(values)):
             if segment_roll <= right_border:
                 actual_segment_hit = mapped_segments[i]
                 break
-            left_border = values[i]
             right_border += values[i]
 
         if target_type == actual_segment_hit:
